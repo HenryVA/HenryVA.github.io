@@ -5,6 +5,7 @@
 .inicio {
     background-image: url(Gyarados.jpg);
     min-height: 100vh;
+    width: 100%;
     padding: 250px 0 250px 0;
     text-align: center;
     background-size: cover;
@@ -25,7 +26,7 @@ nav {
 .nav-link{
     list-style: none;
     display: inline-block;
-    padding: 9px;
+    padding: 8px;
     margin: 2px;
 }
 
@@ -43,22 +44,36 @@ nav {
 
 h1 {
     font-size: 50px;
+    font-weight: 800px;
+     background: url(Lance.jpg)
+     center/cover;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-transform: uppercase;
+    text-shadow: 0px 0px 10px cyan, 
 }
 
 .info {
     background-color: rgb(2, 41, 85);
     min-height: 100vh;
     padding: 5vh;
-    
+}
+
+.info h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(162, 243, 243),
+                 0px 0px 0px cyan,
+                 0px 0px 40px cyan,
+                 0px 0px 80px cyan;
 }
 
 .content{
+    align-items: center;
     display: flex;
     width: 100%;
     font-size: 18px;
-    max-width: 71vw;
-    margin-top: 5vh;
-    margin-bottom: 10px;
+    max-width: 60vw;
+    margin: auto;
     background: rgb(0, 0, 0, 0.5);
     padding: 50px;
     border-radius: 16px;
@@ -67,9 +82,8 @@ h1 {
     -webkit-backdrop-filter: blur(11.6px);
 }
 
-
 .main {
-    margin-top: 10vh;
+    margin-top: 0vh;
     display: inline-block;
     padding: 10px;
 
@@ -111,6 +125,10 @@ h1 {
 
 }
 
+.project h2 {
+    padding: 20px;
+}
+
 .project-list div{
     padding: 1px;
     margin: 20px;
@@ -129,26 +147,35 @@ h1 {
 
 @media screen and (max-width: 1075px) {
     .content{
+        width: 70vh;
         flex-direction: column;
     }
 }
 
 @media screen and (max-width: 720px) {
-
-    li.nav-link {
-        font-size: 13px;
+    * {
+        width:auto;
     }
 
-    .main h2{
-        font-size: 28px;
+   .nav-link {
+    
+    margin: auto;
+
+   }
+
+    .container {
+
+        width: auto;
+        height: 100vh;
     }
 
-    .main p{
-        font-size: 15px;
+    .image-1 {
+        padding: 30px;
     }
 
-
-    .image-1 img{
-        max-width: 70%;
+    .nav-links {
+        display: flex;
+        flex-direction: column;
     }
+   
 }
