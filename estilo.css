@@ -168,7 +168,7 @@ h1 {
 
 .project {
     padding: 60px;
-    background-color:rgb(39, 35, 35);
+    background-color:rgb(46, 64, 75);
 }
 
 
@@ -210,8 +210,9 @@ h1 {
 }
 
 .contact {
-    background: black;
-    height: 70px;
+    background: rgb(46, 64, 75);
+    height: 50vh;
+    align-items: center;
 }
 
 @media screen and (max-width: 1075px) {
