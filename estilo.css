@@ -85,7 +85,7 @@ h1 {
     font-size: 40px;
     font-weight: 80px;
     color: rgb(252, 252, 252);
-    font-family:  "Savate", sans-serif;
+    font-family:  "Saira", sans-serif;
     text-shadow: 0px 0px 10px rgb(199, 204, 204);
     opacity: 100%;
 }
@@ -105,7 +105,7 @@ h1 {
 
 
 .info {
-    background-color: rgb(39, 35, 35);
+    background-color: rgb(46, 64, 75);
     min-height: 100vh;
     padding: 5vh;
     
