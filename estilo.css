@@ -279,12 +279,8 @@ h1 {
     .nav-links {
         display: flex;
         flex-direction: column;
-    }
+    } 
 
-    .inicio {
-        background-size: contain;
-        background-position: center; 
-    }
     .imgR {
         display: block;
         margin-top: 100px;
