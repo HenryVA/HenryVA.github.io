@@ -153,6 +153,10 @@ h1 {
     line-height: 23px;
 }
 
+.main li {
+    color: white;
+}
+
 .image-1 {
     display: flex;
     margin-top: 2vh;
