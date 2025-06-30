@@ -213,10 +213,6 @@ h1 {
     padding: 10px;
     color: white;
 }
-.project list {
-    overflow: auto;
-    color: white;
-}
 
 .project img:hover {
     transform: scale(1.2);
