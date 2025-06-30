@@ -187,7 +187,7 @@ h1 {
 }
 
 .project-list div{
-    padding: 1px;
+    padding: 5px;
     margin: 10px;
     height: 370px;
     width: 400px;
@@ -200,8 +200,8 @@ h1 {
 }
 
 .project p {
-    text-align:justify;
-    
+    text-align: justify;
+    overflow-y: scroll; 
 }
 
 
