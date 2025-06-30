@@ -188,6 +188,7 @@ h1 {
 
 .project h2 {
     padding: 20px;
+    color: white;
 }
 
 .project-list div{
@@ -209,7 +210,8 @@ h1 {
     height: 100px;
     overflow: auto;
     border: 1px solid #aaa;
-    padding: 10px; 
+    padding: 10px;
+    color: white;
 }
 
 
