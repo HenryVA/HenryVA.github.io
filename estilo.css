@@ -213,12 +213,16 @@ h1 {
 .contact {
     background: rgb(46, 64, 75);
     height: 100vh;
+}
+
+.close {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
-.contact h1 {
+.close h1 {
     font-size: 3em;
     text-align: center;
 }
